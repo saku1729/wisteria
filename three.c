@@ -58,7 +58,7 @@ int main(int argc, char **argv)
     int rank;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     double dt1, dt2;
-    double dt = 0.000001;
+    double dt = 0.00001;
     double x1, y1, x2, y2, x3, y3, xp1, yp1, xp2, yp2, xp3, yp3, xn1, yn1, xn2, yn2, xn3, yn3, xpn1, ypn1, xpn2, ypn2, xpn3, ypn3;
     double cx1, cy1, cx2, cy2, cx3, cy3;
     double d, d1, d2;
